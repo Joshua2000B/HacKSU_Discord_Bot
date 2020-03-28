@@ -76,15 +76,10 @@ import datetime
 
 class MyClient(discord.Client):
 
-    
-    #ON MESSAGE
     async def on_message(self,message):
         if(message.content.startswith("/")):
             await self.process_commands(message)
 
-
-
-    #PROCESS COMMANDS
     async def process_commands(self,message):
         command = message.content.split()[0].lower()
         #Command List Here
