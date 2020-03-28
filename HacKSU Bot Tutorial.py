@@ -35,4 +35,4 @@ class MyClient(discord.Client):
 
 print("Starting Bot")
 bot = MyClient()
-bot.run("NjkzMjkyODE0MzEzNzE3ODAw.Xn69sQ.agHVXU3lNM4MVaTwJwVDUSDohck")
+bot.run("TOKEN")
