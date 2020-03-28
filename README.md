@@ -125,10 +125,10 @@ We are almost done! Next up, add the following code to your file. These function
         print("Successfully set Bot's game status")
         
     async def on_connect(self):
-        print("Bot has connected to server at time:",datetime.now())
+        print("Bot has connected to server at time:",datetime.datetime.now())
     
     async def on_disconnect(self):
-        print("Bot has disconnected from server at time:",datetime.now())
+        print("Bot has disconnected from server at time:",datetime.datetime.now())
 ```
 
 Lastly, we need to make sure the bot can log into Discord. Add the following bit of code to your file, and make sure to replace ```TOKEN``` with the token you copied from Discord Developer:
